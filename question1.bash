@@ -1,4 +1,4 @@
-echo "Enter an integer"
+echo "Enter an integerr"
 read num
 if[$num %2==1]
 then
@@ -32,15 +32,6 @@ do
    sum=`expr $sum + 1`
    done
 echo ""
-done
 else
-
-for((i=$num; i>=1; i--))
-do
-  for((j=1; j<=$i; j++))
-  do
-    echo -n "* "
-  done
-  echo
-done
+echo "Value not Perfect"
 fi
